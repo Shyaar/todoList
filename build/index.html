@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-[url(https://img.freepik.com/premium-photo/calendar-page-close-up-blue-background-business-planning-appointment-meeting-concept_293060-1467.jpg?uid=R98690155&ga=GA1.1.945534508.1726865207&semt=ais_siglip)] bg-no-repeat bg-cover my-10 mx-20 h-screen">
+
+
+
+<section id="main" class="flex">
+
+    <!-- <div id="left" class="bg-blue-950 w-1/4 h-screen p-4 rounded">
+
+        <div id="completed" class="h-2/4 w-auto bg-white mb-3 rounded shadow-md">
+            <h3 class="w-full text-center p-4">completed Schdule: <span class="completeNum">0</Span> </h3>
+            <hr>
+            <ul>
+
+            </ul>
+        </div>
+
+        <div id="Total" class="h-2/4 w-auto bg-white mt-3 rounded shadow-md">
+            <h3 class="w-full text-center p-4">Total Schdule:<span class="schduleNum">0</Span></h3>
+            <hr>
+            <ul>
+
+            </ul>
+        </div>
+
+    </div> -->
+   
+    <main class="w-3/4 h-screen mx-6">
+        <div id="top" class="bg-white pb-5 h-2/4 mb-3">
+            <nav class=" bg-black flex justify-center pt-5 pb-5">
+                <div>
+                    <h1 class="text-blue-900 font text-6xl">🗓️ Todo</h1>
+                </div>
+            </nav>
+            <div class="flex justify-center h-auto">
+                <div class=" rounded-lg h-9 bg-slate-200 pl-6 flex outline-1 my-3 ml-2 place-items-center justify-between">
+                    <input id="input" class="w-80 text-white outline-none bg-transparent" type="text" placeholder="What do you want to do Today!">
+                    <!-- <i class="fa-regular fa-circle-xmark" style="color: #ffffff;"></i> -->
+                    <button id="btn" class="bg-blue-950 px-8 py-2 rounded-lg text-white shadow-md">Save</button>
+                
+
+                    <!-- <div class="flex justify-center h-auto ">
+                    <button id="btn" class="bg-blue-950 px-8 py-2 rounded-lg text-white shadow-md">Save</button>
+                     </div> -->
+                </div>
+            </div>
+
+
+
+            <div class="flex justify-between m-10 h-auto "> 
+                <h3>Total: <span id="totalNum">0</Span> </h3>
+                <h3>completed: <span id="completeNum">0</Span> </h3>
+                <h3>uncompleted: <span id="unCompleteNum">0</Span> </h3>
+            </div>
+        </div>
+
+            <div id="buttom" class="bg-white pb-5 h-2/4 mt-3 px-3">
+                <div class="flex justify-between mx-10 h-auto  "> 
+                    <h3 class="text-center w-full my-4">YOUR SCHEDULES </h3>
+                </div>
+                <hr>
+                <ul id="listItems">
+                   <!-- <li class="bg-slate-200 p-3 rounded shadow-md h-auto my-3 flex items-center"> 
+                    <input class="peer checked:bg-blue-500 mr-3" type="checkbox" name="" id="checkbox">
+                    <p class = "w-full peer-checked:line-through peer-checked:text-gray-500">${schedule}</p> 
+                    <i class=" delete fa-solid fa-circle-minus" style="color: #ffffff;">
+                    </i>
+                </li> -->
+                    
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+
+    <div id="right" class="bg-blue-950 w-1/4 h-screen p-4 rounded">
+
+        <div id="calendar" class="h-2/4 w-auto mb-3 rounded bg-cover shadow-md" style="background-image: url(/build/img/Screenshot\ from\ 2024-11-04\ 13-58-01.png);">
+
+        </div>
+
+        <div id="note" class="h-2/4 w-auto bg-yellow-400 mt-3 rounded shadow-md">
+            <h3 class="w-full text-center p-4 text-white">drop a note</Span> </h3>
+            <hr>
+
+        </div>
+    </div>
+    
+
+</section>
+
+<script src="java/class.js"></script>
+</body>
+</html>
